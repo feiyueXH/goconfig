@@ -64,7 +64,7 @@ func (c *ConfigFile) read(reader io.Reader) (err error) {
 		switch {
 		case lineLengh == 0: // Empty line
 			continue
-		case line[0] == '#' || line[0] == ';': // Comment
+		case line[0] == '#' || line[0] == ';' || line[0] == '*': // Comment
 			// Append comments
 			if len(comments) == 0 {
 				comments = line

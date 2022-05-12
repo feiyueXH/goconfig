@@ -26,7 +26,7 @@ The configuration file consists of sections, led by a `[section]` header and fol
 
 ## Installation
 	
-	go get github.com/unknwon/goconfig
+	go get github.com/feiyueXH/goconfig
 
 ## API Documentation
 
